@@ -1,0 +1,95 @@
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: rgba(240, 234, 228, 0.363);
+}
+
+main {
+  max-width: 100%;;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(29, 12, 0, 0.7), rgba(219, 163, 9, 0.3)), url("images/suad-kamardeen-789567-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-content h1 {
+  font-size: 7rem;
+}
+
+.hero-content p {
+  font-size: 2rem;
+}
+
+.signature-color {
+  background-image: linear-gradient(to right, rgb(187, 96, 10), rgb(243, 76, 10));
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+
+section {
+  margin-bottom: 75px;
+}
+
+img {
+  /* border-radius: 20px; */
+  box-shadow: 3px 3px 5px rgba(216, 213, 213, 0.925);
+}
+
+#meal-plans {
+  background-image: linear-gradient(to right, rgba(187, 96, 10, 0.6), rgba(243, 76, 10, 0.6));
+  box-shadow: 0 7px 15px rgba(233, 124, 0, 0.74);
+}
+
+/* .card {
+  max-width: 25rem;
+} */
+
+.card-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-body .btn {
+  color: white;
+}
+
+.meal-plan-price {
+  color: rgb(243, 76, 10);
+}
+
+@media(max-width: 767px) {
+  .card h5,
+  .card p,
+  .card ul {
+    font-size: 1.25rem;
+    font-weight: 100;
+  }
+}
+
+@media(max-width: 767px) {
+  .card h5,
+  .card p,
+  .card ul {
+    font-size: 1.25rem;
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 1050px) {
+  .card h5,
+  .card p,
+  .card ul {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+}
+
+.carousel-item {
+  width: 100%;
+  height: 340px;
+}
